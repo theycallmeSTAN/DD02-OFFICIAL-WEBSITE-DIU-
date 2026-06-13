@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+
+Sitemap:
+
+https://theycallmeSTAN.github.io/DD02-Official-Website/sitemap.xml
