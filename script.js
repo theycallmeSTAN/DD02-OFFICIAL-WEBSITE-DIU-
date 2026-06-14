@@ -217,3 +217,26 @@ document.querySelector("footer")
 
 FROM DIU TO THE WORLD
 `;
+const logo = document.getElementById("logo");
+const oceanSound = document.getElementById("oceanSound");
+
+let playing = false;
+
+
+logo.addEventListener("click",()=>{
+
+if(!playing){
+
+oceanSound.play();
+playing=true;
+
+}
+
+else{
+
+oceanSound.pause();
+playing=false;
+
+}
+
+});
