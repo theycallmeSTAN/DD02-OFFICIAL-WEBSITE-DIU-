@@ -240,7 +240,28 @@ color:#d00000;
 HERO SECTION
 ========================= */
 
+.hero-artist{
 
+position:absolute;
+right:8%;
+bottom:0;
+width:350px;
+z-index:2;
+
+}
+
+
+@media(max-width:700px){
+
+.hero-artist{
+
+width:220px;
+right:50%;
+transform:translateX(50%);
+
+}
+
+}
 
 .hero{
 
@@ -276,7 +297,7 @@ object-fit:cover;
 
 z-index:-2;
 
-animation:oceanMove 20s infinite alternate;
+animation:oceanMove 30s infinite alternate;
 
 }
 
